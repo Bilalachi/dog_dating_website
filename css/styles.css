@@ -1,3 +1,5 @@
+
+
 #title
 {
     background-color: rgb(80, 51, 209);
@@ -15,6 +17,11 @@
 }
 
 .middle
+{
+    background-color: rgb(80, 51, 209);
+}
+
+#cta
 {
     background-color: rgb(80, 51, 209);
 }
