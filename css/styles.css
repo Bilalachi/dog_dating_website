@@ -43,15 +43,15 @@
     }
   }
 
-  .icons
+.icons
   {
       color: rgb(80, 51, 209);
   }
 
-.small
+  .small
 {
     width: 100px;
-    height: 60px;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -76,4 +76,10 @@
     font-weight: bolder;
     font-size: 60px;
     color: white;
+}
+
+.presspic
+{
+    max-width: 25%;
+    height: auto;
 }
