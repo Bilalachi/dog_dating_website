@@ -1,14 +1,53 @@
+.colored
+{
+    background-color: rgb(80, 51, 209);
+}
 
+
+.bar
+{
+    text-align: center;
+}
+
+.navtext
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.titleheader {
+    font-weight: bolder;
+    font-size: 65px;
+    color: white;
+  }
 
 #title
 {
     background-color: rgb(80, 51, 209);
 }
 
-.mainDog
-{
-    transform: rotate(25deg);
-}
+.mainDog {
+    padding-top: 10px;
+    padding-right: 25px;
+    max-width: 331px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .mainDog {
+      transform: rotate(25deg);
+    }
+    .section1 {
+      height: 400px;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .icons
+  {
+      color: rgb(80, 51, 209);
+  }
+
 .small
 {
     width: 100px;
@@ -24,4 +63,11 @@
 #cta
 {
     background-color: rgb(80, 51, 209);
+}
+
+.ctatext
+{
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
 }

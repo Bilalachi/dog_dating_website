@@ -13,21 +13,21 @@
 
 <body>
 
-  <section id="title">
+  <section id="title" class="colored">
 
     <!-- Nav Bar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">My App</a>
+        <a class="navbar-brand">My App</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link" href="#">Download</a>
+          <div class="navbar-nav ms-auto">
+            <a class="nav-item nav-link navtext"  href="#footer">Contact</a>
+            <a class="nav-item nav-link navtext" href="#pricing">Pricing</a>
+            <a class="nav-item nav-link navtext" href="#cta">Download</a>
           </div>
         </div>
       </div>
@@ -38,14 +38,14 @@
 
     <!-- Title -->
 
-    <div class="container text-center">
+    <div class="container">
       <div class="row">
-        <div class="col-md-5 col-sm-12">
-          <h1>Meet dog next door.</h1>
-          <button type="button" class="btn btn-dark"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-light"><i class="fab fa-google-play"></i> Download</button>
+        <div class="col-lg-6 text-center text-lg-start col-sm-12">
+          <h1 class="titleheader">Meet dog next door.</h1>
+          <button type="button" class="btn btn-dark btn-lg mt-4 me-3"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-primary btn-lg mt-4 me-3"><i class="fab fa-google-play"></i> Download</button>
         </div>
-        <div class="col-md-5 col-sm-12" >
+        <div class="col-lg-6 d-flex justify-content-center col-sm-12" >
           <img class="mainDog" src="images/app.png" alt="Dog">
 
         </div>
@@ -59,17 +59,20 @@
 
   <section id="features">
     <div class="container">
-      <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <h3>Feature1</h3>
+      <div class="row text-center pt-5">
+      <div class="col-lg-4 col-sm-12 p-5">
+        <i class="fas fa-check-circle display-1 icons"></i>
+        <h3 class="font-weight-bold">Feature1</h3>
         <p>Write soemthing here...</p>
       </div>
-      <div class="col-md-4 col-sm-12">
-        <h3>Feature2</h3>
+      <div class="col-lg-4 col-sm-12 p-5">
+        <i class="fas fa-bullseye display-1 icons"></i>
+        <h3 class="font-weight-bold">Feature2</h3>
         <p>Write soemthing here...</p>
       </div>
-      <div class="col-md-4 col-sm-12">
-        <h3>Feature3</h3>
+      <div class="col-lg-4 col-sm-12 p-5">
+        <i class="fas fa-heart display-1 icons"></i>
+        <h3 class="font-weight-bold">Feature3</h3>
         <p>Write soemthing here...</p>
         </div>
       </div>
@@ -80,8 +83,7 @@
 
   <!-- Testimonials -->
 
-  <section class="middle">
-  <section id="testimonials">
+  <section id="testimonials"  class="colored">
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 
       
@@ -119,7 +121,7 @@
 
   <!-- Press -->
 
-  <section id="press">
+  <section id="press" class="colored">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-6">
@@ -131,7 +133,6 @@
       </div>
     </div>
     </section>
-  </section>
 
 
   <!-- Pricing -->
@@ -195,29 +196,19 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <h3 class="ctadownload">The APP that your Dog needs.</h3>
-        </div>
+  <section id="cta" class="colored">
+    <div class="container text-center p-5">
+      <h3 class="ctatext">The APP that your Dog needs.</h3>
+      <div class="d-flex flex-row justify-content-center">
+        <button type="button" class="btn btn-dark btn-lg mt-4 me-3">
+          <i class="fab fa-apple"></i>
+          Download
+        </button>
+        <button type="button" class="btn btn-outline-primary btn-lg mt-4">
+          <i class="fab fa-google-play"></i>
+          Download
+        </button>
       </div>
-      <div class="download row">
-        <div class="col-md-6 col-sm-6 text-right">
-          <div class="apple">
-            <div class="d-flex flex-row justify-content-center"></div>
-            <button type="button" class="btn btn-dark"><i class="fab fa-apple"></i> Download</button>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-6 text-left">
-          <div class="google">
-            <div class="d-flex flex-row justify-content-center"></div>
-            <button type="button" class="btn btn-light"><i class="fab fa-google-play"></i> Download</button>
-          </div>
-          
-        </div>
-      </div>
-    </div>
 
   </section>
 
