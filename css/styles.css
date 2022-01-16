@@ -1,0 +1,20 @@
+#title
+{
+    background-color: rgb(80, 51, 209);
+}
+
+.mainDog
+{
+    transform: rotate(25deg);
+}
+.small
+{
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.middle
+{
+    background-color: rgb(80, 51, 209);
+}
