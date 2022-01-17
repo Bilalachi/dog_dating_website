@@ -98,12 +98,14 @@
 #cta
 {
     background-color: rgb(80, 51, 209);
+    height: 350px;
+    padding-top: 65px;
 }
 
 .ctatext
 {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
 }
 
