@@ -9,27 +9,44 @@
     text-align: center;
 }
 
+.navbar-brand
+{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 130px;
+}
+
+.topbutton
+{
+    margin-left: 125px;
+}
+
 .navtext
 {
     font-size: 20px;
     font-weight: bolder;
+    
 }
 
 .titleheader {
     font-weight: bolder;
-    font-size: 65px;
+    font-size: 70px;
     color: white;
+    padding-left: 120px;
   }
 
 #title
 {
     background-color: rgb(80, 51, 209);
+    height: 520px;
+    overflow: hidden;
 }
 
 .mainDog {
-    padding-top: 10px;
+    margin-top: 30px;
     padding-right: 25px;
-    max-width: 331px;
+    max-width: 330px;
+    overflow: hidden;
   }
   
   @media screen and (min-width: 992px) {
@@ -51,9 +68,10 @@
   .small
 {
     width: 100px;
-    height: auto;
+    height: 60px;
     border-radius: 50%;
 }
+
 
 .middle
 {
