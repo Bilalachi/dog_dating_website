@@ -1,14 +1,7 @@
+
 .colored
 {
-    background-color: rgba(102, 75, 255, 0.911)
-}
-
-
-
-
-.bar
-{
-    text-align: center;
+    background-color: rgba(102, 75, 255, 0.911);
 }
 
 .navbar-brand
@@ -16,6 +9,7 @@
     font-size: 35px;
     font-weight: bold;
     padding-left: 75px;
+    font-family: "ubuntu";
 }
 
 .topbutton
@@ -41,18 +35,24 @@
     background-color: rgba(102, 75, 255, 0.911);
 }
 
+.cards
+{
+    max-width: 300px;
+}
+
 .mainDog {
-    margin-top: 30px;
+    margin-top: 43px;
     padding-right: 25px;
-    max-width: 350px;
+    max-width: 320px;
   }
-  
+
   @media screen and (min-width: 992px) {
     .mainDog {
       transform: rotate(25deg);
+      
     }
     #title {
-      height: 540px;
+      height: 520px;
       width: 100%;
       overflow: hidden;
     }
