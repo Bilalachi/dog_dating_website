@@ -26,7 +26,7 @@
 
 .titleheader {
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 60px;
     color: white;
   }
 
@@ -44,9 +44,9 @@
   @media screen and (min-width: 992px) {
     .mainDog {
       transform: rotate(25deg);
-      margin-right: 35px;
-      max-width: 275px;
-      padding-top: 20px ;
+      margin-right: 85px;
+      max-width: 255px;
+      padding-top: 40px ;
       
     }
     #title {
@@ -67,7 +67,7 @@
       {
           font-size: 50px;
           font-weight: bold;
-          padding-left: 130px;
+          padding-left: 90px;
       }
   }
 
@@ -82,7 +82,7 @@
       .mainDog {
         transform: rotate(25deg);
         margin-right: 30px;
-        max-width: 320px;
+        width: 420px;
         
       }
 
